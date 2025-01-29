@@ -1,11 +1,12 @@
 import './style.css';
+import nav from './components/nav';
+import header from './components/header';
+import info from './components/info';
+import hours from './components/hours';
+import location from './components/location';
 
-function component() {
-  const element = document.createElement('div');
-
-  element.id = 'content';
-
-  return element;
-}
-
-document.body.appendChild(component());
+nav();
+header();
+info();
+hours();
+location();
