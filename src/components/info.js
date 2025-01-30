@@ -6,7 +6,7 @@ function info() {
   section.id = 'info';
 
   h2.textContent = 'Modern Web Cuisine';
-  p.textContent = 'Not just spiders...delicacies from around the insect world!';
+  p.textContent = 'Not just spiders...delicacies from around the arachnid world!';
 
   section.appendChild(h2);
   section.appendChild(p);
